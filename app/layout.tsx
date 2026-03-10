@@ -60,9 +60,9 @@ export default function RootLayout({
       <head>
         {/* WhatsApp & Facebook Open Graph tags - MUST be explicit for WhatsApp */}
         {/* 
-          IMPORTANT: WhatsApp requirements:
-          - File size: MUST be under 300 KB (check your invitation-design.png file size!)
-          - Recommended dimensions: 1200x630px (landscape) for best results
+          IMPORTANT: Instagram requirements:
+          - File size: MUST be under 8MB (check your invitation-design.png file size!)
+          - Recommended dimensions: 1080x1080px (square) for best results on Instagram
           - Current: 768x1365px (portrait) - may work but not optimal
           - Format: PNG or JPEG (not WebP)
         */}
@@ -78,6 +78,12 @@ export default function RootLayout({
         <meta property="og:image:alt" content="Bashar & Rania Wedding Invitation" />
         <meta property="og:site_name" content="Bashar & Rania Wedding" />
         <meta property="og:locale" content="en_US" />
+        
+        {/* Instagram specific tags */}
+        <meta property="instagram:site" content="https://bashar-rania.digitivaa.com/" />
+        <meta property="instagram:title" content="Bashar & Rania - Wedding Celebration" />
+        <meta property="instagram:description" content="Join us in celebrating Bashar & Rania's wedding" />
+        <meta property="instagram:image" content="https://bashar-rania.digitivaa.com/invitation-design.png" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

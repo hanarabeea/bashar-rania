@@ -84,7 +84,7 @@ export default function VenueMap() {
             <h3 className="text-xl sm:text-2xl font-serif font-medium text-foreground mb-2">
               {isRTL ? 'فندق أوكسيدنتال جراند الشارقة' : 'Occidental Grand Hotel Sharjah'}
             </h3>
-            <div className="text-muted-foreground text-sm sm:text-base mb-3 space-y-1">
+            <div className="text-foreground text-sm sm:text-base mb-3 space-y-1">
               {isRTL ? (
                 <>
                   <div>شارع المينة - حي الخالدية</div>
@@ -97,7 +97,7 @@ export default function VenueMap() {
                 </>
               )}
             </div>
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-4 text-xs sm:text-sm text-foreground">
               <div className="flex items-center gap-2">
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />

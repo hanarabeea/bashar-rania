@@ -144,7 +144,7 @@ export default function PhotoUploadSection() {
             {t('sharePhotosTitle')}
           </motion.h2>
           <motion.p
-            className="font-luxury text-xl md:text-2xl text-muted-foreground font-light max-w-3xl mx-auto italic"
+            className="font-luxury text-xl md:text-2xl text-foreground font-light max-w-3xl mx-auto italic"
             variants={scaleIn}
           >
             {t('sharePhotosDescription')}
@@ -199,7 +199,7 @@ export default function PhotoUploadSection() {
                 <p className="font-luxury text-lg md:text-xl text-foreground text-center mb-2 font-medium">
                   {t('scanQRCode')}
                 </p>
-                <p className="font-luxury text-base text-muted-foreground text-center italic">
+                <p className="font-luxury text-base text-foreground text-center italic">
                   {t('orUploadDirectly')}
                 </p>
               </motion.div>
@@ -244,7 +244,7 @@ export default function PhotoUploadSection() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.7 }}
               >
-                <div className="flex items-center justify-center gap-3 text-muted-foreground">
+                <div className="flex items-center justify-center gap-3 text-foreground">
                   <svg className="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
                   </svg>

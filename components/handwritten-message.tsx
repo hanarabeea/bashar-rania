@@ -23,7 +23,7 @@ export default function HandwrittenMessage() {
   // Pen color options with translations
   const penColors = [
     { color: '#6a714b', name: t('colorBlack') },
-    { color: '#B5B9AB', name: t('colorRed') },
+    { color: '#9aa89f', name: t('colorRed') },
     { color: '#EF4444', name: t('colorRed') },
     { color: '#3B82F6', name: t('colorBlue') },
     { color: '#10B981', name: t('colorGreen') },
@@ -55,7 +55,7 @@ export default function HandwrittenMessage() {
           canvas.width = width;
           canvas.height = 600; // Increased height for larger writing area
         }
-        canvas.style.border = '2px solid #B5B9AB';
+        canvas.style.border = '2px solid #9aa89f';
         canvas.style.borderRadius = '0.5rem';
         // Only fill background on initial setup, not on resize
         if (isInitial) {

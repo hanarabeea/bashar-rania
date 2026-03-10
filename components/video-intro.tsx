@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 
 interface VideoIntroProps {
   onComplete: () => void
@@ -9,6 +9,8 @@ interface VideoIntroProps {
 
 export default function VideoIntro({ onComplete, onSkip }: VideoIntroProps) {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const [loopCount, setLoopCount] = useState(0);
+  const maxLoops = 3;
 
   useEffect(() => {
     const video = videoRef.current;
@@ -29,6 +31,20 @@ export default function VideoIntro({ onComplete, onSkip }: VideoIntroProps) {
     }
   }, []);
 
+  const handleVideoEnd = () => {
+    if (loopCount < maxLoops - 1) {
+      // Loop the video
+      setLoopCount(prev => prev + 1);
+      if (videoRef.current) {
+        videoRef.current.currentTime = 0;
+        videoRef.current.play().catch(() => {});
+      }
+    } else {
+      // Complete after 3 loops
+      onComplete();
+    }
+  };
+
   return (
     <div 
       className="fixed inset-0 bg-black flex items-center justify-center z-[9999]"
@@ -41,7 +57,7 @@ export default function VideoIntro({ onComplete, onSkip }: VideoIntroProps) {
           playsInline={true}
           muted={true}
           autoPlay={true}
-          onEnded={onComplete}
+          onEnded={handleVideoEnd}
           preload="auto"
           disablePictureInPicture
           loop={false}

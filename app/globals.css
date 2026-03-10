@@ -29,7 +29,7 @@
   }
   
   .luxury-gradient {
-    background: linear-gradient(135deg, #D2A941 0%, #f5e6d3 50%, #946C18 100%);
+    background: linear-gradient(135deg, #B5B9AB 0%, #e8f0e5 50%, #6a714b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -47,7 +47,7 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(210, 169, 65, 0.3), transparent);
+    background: linear-gradient(90deg, transparent, rgba(181, 185, 171, 0.3), transparent);
     animation: shimmer 3s infinite;
   }
   
@@ -59,75 +59,75 @@
 }
 
 :root {
-  /* Elegant white and gold palette */
+  /* Elegant white and sage green palette */
   --background: #ffffff; /* Pure white */
-  --foreground: #946C18;   /* Dark gold for text */
+  --foreground: #6a714b;   /* Dark sage green for text */
   --card: #ffffff;         /* White for cards */
-  --card-foreground: #946C18;
+  --card-foreground: #6a714b;
   --popover: #ffffff;
-  --popover-foreground: #946C18;
-  --primary: #D2A941;    /* Gold primary */
-  --primary-foreground: #946C18; /* Dark gold text on primary */
+  --popover-foreground: #6a714b;
+  --primary: #B5B9AB;    /* Sage green primary */
+  --primary-foreground: #6a714b; /* Dark sage green text on primary */
   --secondary: #f8f8f8;   /* Very light gray for alternative sections */
-  --secondary-foreground: #946C18;
+  --secondary-foreground: #6a714b;
   --muted: #f5f5f5;     /* Very light gray for subtle areas */
-  --muted-foreground: #D2A941;
-  --accent: #D2A941;      /* Gold accent */
-  --accent-foreground: #946C18;
+  --muted-foreground: #B5B9AB;
+  --accent: #B5B9AB;      /* Sage green accent */
+  --accent-foreground: #6a714b;
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
   --border: #e5e5e5;
   --input: #e5e5e5;
-  --ring: #D2A941;
+  --ring: #B5B9AB;
   --radius: 0.5rem;
   --sidebar: #f8f8f8;
-  --sidebar-foreground: #946C18;
-  --sidebar-primary: #D2A941;
+  --sidebar-foreground: #6a714b;
+  --sidebar-primary: #B5B9AB;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #f5f5f5;
-  --sidebar-accent-foreground: #946C18;
+  --sidebar-accent-foreground: #6a714b;
   --sidebar-border: #e5e5e5;
-  --sidebar-ring: #D2A941;
-  --chart-1: #D2A941;   /* Gold */
-  --chart-2: #946C18;     /* Dark gold */
-  --chart-3: #e5c887;     /* Light gold */
-  --chart-4: #f5e6d3;     /* Very light gold */
-  --chart-5: #d4af37;     /* Alternative gold */
+  --sidebar-ring: #B5B9AB;
+  --chart-1: #B5B9AB;   /* Sage green */
+  --chart-2: #6a714b;     /* Dark sage green */
+  --chart-3: #d4d9c8;     /* Light sage green */
+  --chart-4: #e8f0e5;     /* Very light sage green */
+  --chart-5: #c5d9b5;     /* Alternative sage green */
 }
 
 .dark {
   --background: #1a1a1a;
-  --foreground: #D2A941;
+  --foreground: #B5B9AB;
   --card: #2a2a2a;
-  --card-foreground: #D2A941;
+  --card-foreground: #B5B9AB;
   --popover: #2a2a2a;
-  --popover-foreground: #D2A941;
-  --primary: #D2A941;
+  --popover-foreground: #B5B9AB;
+  --primary: #B5B9AB;
   --primary-foreground: #1a1a1a;
   --secondary: #333333;
-  --secondary-foreground: #D2A941;
+  --secondary-foreground: #B5B9AB;
   --muted: #404040;
-  --muted-foreground: #e5c887;
-  --accent: #D2A941;
+  --muted-foreground: #d4d9c8;
+  --accent: #B5B9AB;
   --accent-foreground: #1a1a1a;
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
   --border: #404040;
   --input: #404040;
-  --ring: #D2A941;
-  --chart-1: #D2A941;
-  --chart-2: #946C18;
-  --chart-3: #e5c887;
-  --chart-4: #f5e6d3;
-  --chart-5: #d4af37;
+  --ring: #B5B9AB;
+  --chart-1: #B5B9AB;
+  --chart-2: #6a714b;
+  --chart-3: #d4d9c8;
+  --chart-4: #e8f0e5;
+  --chart-5: #c5d9b5;
   --sidebar: #2a2a2a;
-  --sidebar-foreground: #D2A941;
-  --sidebar-primary: #D2A941;
+  --sidebar-foreground: #B5B9AB;
+  --sidebar-primary: #B5B9AB;
   --sidebar-primary-foreground: #1a1a1a;
   --sidebar-accent: #404040;
-  --sidebar-accent-foreground: #D2A941;
+  --sidebar-accent-foreground: #B5B9AB;
   --sidebar-border: #404040;
-  --sidebar-ring: #D2A941;
+  --sidebar-ring: #B5B9AB;
 }
 
 @theme inline {

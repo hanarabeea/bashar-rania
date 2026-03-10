@@ -415,7 +415,7 @@ export default function AnimatedEngagementPage() {
               >
                 <div className="bg-card/80 backdrop-blur-sm border border-accent/20 rounded-3xl p-12 shadow-2xl relative overflow-hidden">
                   {/* Background Pattern */}
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,_rgba(210,169,65,0.1)_1px,_transparent_0)] bg-[length:20px_20px]" />
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,_rgba(181,185,171,0.1)_1px,_transparent_0)] bg-[length:20px_20px]" />
                   
                   <div className="relative z-10">
                     <motion.h3

@@ -14,7 +14,7 @@ export default function HandwrittenMessage() {
   const [name, setName] = useState('');
   const [isSending, setIsSending] = useState(false);
   const [message, setMessage] = useState({ text: '', type: '' as 'success' | 'error' | 'info' | '' });
-  const [currentColor, setCurrentColor] = useState('#946C18');
+  const [currentColor, setCurrentColor] = useState('#6a714b');
   const [currentWidth, setCurrentWidth] = useState(3);
   const [history, setHistory] = useState<string[]>([]);
   const [messageType, setMessageType] = useState<'drawn' | 'written'>('drawn');
@@ -22,8 +22,8 @@ export default function HandwrittenMessage() {
 
   // Pen color options with translations
   const penColors = [
-    { color: '#946C18', name: t('colorBlack') },
-    { color: '#D2A941', name: t('colorRed') },
+    { color: '#6a714b', name: t('colorBlack') },
+    { color: '#B5B9AB', name: t('colorRed') },
     { color: '#EF4444', name: t('colorRed') },
     { color: '#3B82F6', name: t('colorBlue') },
     { color: '#10B981', name: t('colorGreen') },
@@ -55,7 +55,7 @@ export default function HandwrittenMessage() {
           canvas.width = width;
           canvas.height = 600; // Increased height for larger writing area
         }
-        canvas.style.border = '2px solid #D2A941';
+        canvas.style.border = '2px solid #B5B9AB';
         canvas.style.borderRadius = '0.5rem';
         // Only fill background on initial setup, not on resize
         if (isInitial) {

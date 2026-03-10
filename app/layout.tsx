@@ -18,31 +18,31 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mahmoud_farah.digitivaa.com"),
-  title: "Mahmoud & Farah - Engagement Celebration",
-  description: "Join us in celebrating Mahmoud & Farah's engagement",
+  metadataBase: new URL("https://bashar-rania.digitivaa.com"),
+  title: "Bashar & Rania - Wedding Celebration",
+  description: "Join us in celebrating Bashar & Rania's wedding",
   generator: "Digitiva",
   openGraph: {
-    url: "https://mahmoud_farah.digitivaa.com/",
+    url: "https://bashar-rania.digitivaa.com/",
     type: "website",
-    siteName: "Mahmoud & Farah Engagement",
-    title: "Mahmoud & Farah - Engagement Celebration",
-    description: "Join us in celebrating Mahmoud & Farah's engagement",
+    siteName: "Bashar & Rania Wedding",
+    title: "Bashar & Rania - Wedding Celebration",
+    description: "Join us in celebrating Bashar & Rania's wedding",
     images: [
       {
-        url: "https://mahmoud_farah.digitivaa.com/invitation-design.png?t=20241220v2",
+        url: "https://bashar-rania.digitivaa.com/invitation-design.png",
         width: 768,
         height: 1365,
-        alt: "Mahmoud & Farah Engagement Invitation",
+        alt: "Bashar & Rania Wedding Invitation",
       },
     ],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mahmoud & Farah - Engagement Celebration",
-    description: "Join us in celebrating Mahmoud & Farah's engagement",
-    images: ["https://mahmoud_farah.digitivaa.com/invitation-design.png?t=20241220"],
+    title: "Bashar & Rania - Wedding Celebration",
+    description: "Join us in celebrating Bashar & Rania's wedding",
+    images: ["https://bashar-rania.digitivaa.com/invitation-design.png"],
   },
   icons: {
     icon: "/invitation-design.png",
@@ -66,24 +66,24 @@ export default function RootLayout({
           - Current: 768x1365px (portrait) - may work but not optimal
           - Format: PNG or JPEG (not WebP)
         */}
-        <meta property="og:url" content="https://mahmoud_farah.digitivaa.com/" />
+        <meta property="og:url" content="https://bashar-rania.digitivaa.com/" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Mahmoud & Farah - Engagement Celebration" />
-        <meta property="og:description" content="Join us in celebrating Mahmoud & Farah's engagement" />
-        <meta property="og:image" content="https://mahmoud_farah.digitivaa.com/invitation-design.png?t=20241220v2" />
-        <meta property="og:image:secure_url" content="https://mahmoud_farah.digitivaa.com/invitation-design.png?t=20241220v2" />
+        <meta property="og:title" content="Bashar & Rania - Wedding Celebration" />
+        <meta property="og:description" content="Join us in celebrating Bashar & Rania's wedding" />
+        <meta property="og:image" content="https://bashar-rania.digitivaa.com/invitation-design.png" />
+        <meta property="og:image:secure_url" content="https://bashar-rania.digitivaa.com/invitation-design.png" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="768" />
         <meta property="og:image:height" content="1365" />
-        <meta property="og:image:alt" content="Mahmoud & Farah Engagement Invitation" />
-        <meta property="og:site_name" content="Mahmoud & Farah Engagement" />
+        <meta property="og:image:alt" content="Bashar & Rania Wedding Invitation" />
+        <meta property="og:site_name" content="Bashar & Rania Wedding" />
         <meta property="og:locale" content="en_US" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Mahmoud & Farah - Engagement Celebration" />
-        <meta name="twitter:description" content="Join us in celebrating Mahmoud & Farah's engagement" />
-        <meta name="twitter:image" content="https://mahmoud_farah.digitivaa.com/invitation-design.png?t=20241220v2" />
+        <meta name="twitter:title" content="Bashar & Rania - Wedding Celebration" />
+        <meta name="twitter:description" content="Join us in celebrating Bashar & Rania's wedding" />
+        <meta name="twitter:image" content="https://bashar-rania.digitivaa.com/invitation-design.png" />
 
         {/* Preload PNG with high priority to eliminate lag on Netlify */}
         <link
